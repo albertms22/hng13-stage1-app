@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
         <!DOCTYPE html>
         <html>
         <head>
-            <title>HNG13 Stage 2 Deployment</title>
+            <title>HNG13 Stage 1 Deployment</title>
             <style>
                 body {
                     font-family: Arial, sans-serif;
@@ -38,10 +38,10 @@ app.get('/', (req, res) => {
             </style>
         </head>
         <body>
-            <h1>🚀 HNG13 Stage 2</h1>
+            <h1>🚀 HNG13 Stage 1</h1>
             <div class="info">
                 <h2>Automated Deployment Successful!</h2>
-                <p>Deployed by: [Your Name]</p>
+                <p>Deployed by: Albert Mitini-Sadigben</p>
                 <p>Date: ${new Date().toLocaleDateString()}</p>
                 <div class="badge">✅ Dockerized</div>
                 <div class="badge">✅ Nginx Proxy</div>
@@ -65,7 +65,7 @@ app.get('/health', (req, res) => {
 // API endpoint
 app.get('/api/info', (req, res) => {
     res.json({
-        project: 'HNG13 Stage 2',
+        project: 'HNG13 Stage 1',
         version: '1.0.0',
         author: 'Albert Mitini-Sadigben',
         deployed: true
