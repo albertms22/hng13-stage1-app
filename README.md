@@ -1,4 +1,4 @@
-# HNG13 Stage 2 - Sample Application
+# HNG13 Stage 1 - Sample Application
 
 A simple Node.js Express application for demonstrating automated deployment with Docker and Nginx.
 
@@ -46,10 +46,10 @@ docker run -p 3000:3000 hng13-app
 
 ## Deployment
 
-This application is designed to be deployed using the automated deployment script from HNG13 Stage 2.
+This application is designed to be deployed using the automated deployment script from HNG13 Stage 1 repository.
 
 ## Author
-[Your Name] - HNG13 DevOps Intern
+Albert Mitini-Sadigben - HNG13 DevOps Intern
 
 ## License
 MIT
