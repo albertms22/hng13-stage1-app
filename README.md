@@ -46,7 +46,7 @@ docker run -p 3000:3000 hng13-app
 
 ## Deployment
 
-This application is designed to be deployed using the automated deployment script from HNG13 Stage 1 repository.
+This application is designed to be deployed using the automated deployment script from HNG13 Stage 1 [repository](https://github.com/albertms22/hng13-stage1-devops.git).
 
 ## Author
 Albert Mitini-Sadigben - HNG13 DevOps Intern
