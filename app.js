@@ -67,7 +67,7 @@ app.get('/api/info', (req, res) => {
     res.json({
         project: 'HNG13 Stage 2',
         version: '1.0.0',
-        author: 'Your Name',
+        author: 'Albert Mitini-Sadigben',
         deployed: true
     });
 });
